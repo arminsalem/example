@@ -8,6 +8,7 @@ export default function App() {
 
   React.useEffect(() => {
     console.log('this is first commit')
+    console.log('this is second commit')
     multiply(3, 7).then(setResult);
   }, []);
 
