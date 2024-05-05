@@ -10,6 +10,7 @@ export default function App() {
     console.log('this is first commit')
     console.log('thiss is second commit')
     console.log('this is third commit')
+    console.log('this is forth commit on newBranch')
     multiply(3, 7).then(setResult);
   }, []);
 
